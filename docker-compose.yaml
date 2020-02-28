@@ -1,0 +1,6 @@
+version: '3.7'
+
+services:
+  hugo:
+    image: docker.pkg.github.com/williamjacksn/docker-hugo/hugo
+    working_dir: /site

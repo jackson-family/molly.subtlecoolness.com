@@ -1,0 +1,9 @@
+baseURL: https://molly.subtlecoolness.com/
+disableHugoGeneratorInject: true
+disableKinds:
+  - RSS
+  - sitemap
+  - taxonomy
+  - taxonomyTerm
+languageCode: en-us
+title: Molly&#x02bc;s Corner
