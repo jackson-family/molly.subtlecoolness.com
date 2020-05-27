@@ -1,6 +1,10 @@
 version: '3.7'
 
 services:
-  hugo:
-    image: docker.pkg.github.com/williamjacksn/docker-hugo/hugo:0.66.0
-    working_dir: /site
+  dev:
+    image: williamjackson/pelican:4.2.0
+    command:
+      - --autoreload
+      - --listen
+    ports:
+      - 8000:8000
